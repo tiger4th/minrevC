@@ -1,4 +1,5 @@
 minrevC
 =======
 
-みんなの新着レビューC
+みんなの新着レビューC  
+http://minrev.main.jp/c/
