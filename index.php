@@ -20,20 +20,10 @@ if($id==0){
 <meta http-equiv="content-Style-type" content="text/css" />
 <meta http-equiv="content-Script-type" content="text/javascript" />
 <title><?php
-switch($help){
-	case 0:
-		if($id==0){
-			echo "みんなの新着レビューC - 最安商品の最新口コミ情報";
-		}else{
-			echo $resC["Current"]["Name"]."の新着レビュー - みんなの新着レビューC";
-		}
-		break;
-	case 1:
-		echo "ヘルプ - みんなの新着レビューC";
-		break;
-	case 2:
-		echo "更新履歴 - みんなの新着レビューC";
-		break;
+if($id==0){
+	echo "みんなの新着レビューC - 最安商品の最新口コミ情報";
+}else{
+	echo $resC["Current"]["Name"]."の新着レビュー - みんなの新着レビューC";
 }
 ?></title>
 <link rel="stylesheet" type="text/css" href="./style.css" />
@@ -57,13 +47,7 @@ switch($help){
 <body>
 <div align="right"><span class="sm">
 <a name="top" id="top">&nbsp;</a>
-<?php echo '<a href="./index.php?id=0&sort='.$sort.'&results='.$results.'">トップ</a>'; ?>
- - 
-<?php echo '<a href="./index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.$page.'&help=1">ヘルプ</a>'; ?>
- - 
-<?php echo '<a href="./index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.$page.'&help=2">更新履歴</a>'; ?>
- - 
-<?php echo '<a href="http://tiger4th.com/">リンク</a>'; ?>
+<?php echo '<a href="http://tiger4th.com/">tiger4th.com</a>'; ?>
 &nbsp;&nbsp;
 </span></div>
 
@@ -101,28 +85,14 @@ if($id==0){
 <div id="contents">
 <div class="boxhead" align="left">
 <div id="subject">
-<h2><span class="mdw">
-<?php
-switch ($help) {
-	case 0:
-		echo '新着レビュー';
-		break;
-	case 1:
-		echo 'ヘルプ';
-		break;
-	case 2:
-		echo '更新履歴';
-		break;
-}
-?>
-</span></h2>
+<h2><span class="mdw">新着レビュー</span></h2>
 </div>
 <div id="page">
 &nbsp;<span class="smw"><?php
 if(isset($res["Header"]["Page"]["Count"]) && $res["Header"]["Page"]["Count"] > 0 && !isset($tweet)){
  echo number_format($res["Header"]["Page"]["Count"])."件中 ".number_format($page * $results - $results + 1)."～".number_format($page * $results)."件目";
 } ?></span>
-<?php if($help==0){echo '<a href="http://ic.edge.jp/page2feed/http://minrev.main.jp/c/index.php?id='.$id.'&nb=2" target="_blank"><img src="./image/rss.png" border="0" alt=" RSS" style="vertical-align: middle;" /></a>';} ?>
+<?php echo '<a href="http://ic.edge.jp/page2feed/http://minrev.main.jp/c/index.php?id='.$id.'&nb=2" target="_blank"><img src="./image/rss.png" border="0" alt=" RSS" style="vertical-align: middle;" /></a>'; ?>
 </div>
 </div>
 
@@ -201,18 +171,7 @@ if(isset($res["Header"]["Page"]["Count"]) && $res["Header"]["Page"]["Count"] > 0
 </div>
 
 <div id="footer">
-<p>
-<span class="sm">
-<?php echo '<a href="./index.php?id=1&sort='.$sort.'&results='.$results.'">トップ</a>'; ?>
- - 
-<?php echo '<a href="./index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.$page.'&help=1">ヘルプ</a>'; ?>
- - 
-<?php echo '<a href="./index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.$page.'&help=2">更新履歴</a>'; ?>
-</span>
-
-<br />
-<span class="xs">Copyright &copy; <?php echo date("Y"); ?> <a href="http://minrev.main.jp/c/">みんなの新着レビューC</a> All Rights Reserved.</span>
-</p>
+<p><span class="sm">Copyright &copy; <?php echo date("Y"); ?> <a href="http://tiger4th.com/">tiger4th.com</a> All Rights Reserved.</span></p>
 </div>
 
 </div>

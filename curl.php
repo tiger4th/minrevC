@@ -74,15 +74,6 @@ if($res["Header"]["Page"]["Count"] <= 0){
 	}
 }
 
-//ヘルプ
-if($help == 1){
-	require("./help.php");
-	$blinker = '<a href="./index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.$page.'">元のページに戻る</a>&nbsp;&nbsp;';
-}elseif($help == 2){
-	require("./update.php");
-	$blinker = '<a href="./index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.$page.'">元のページに戻る</a>&nbsp;&nbsp;';
-}else{
-
 curl_close($ch);
 
 //ページ移動
@@ -103,7 +94,3 @@ if($res["Header"]["Page"]["Count"] > $results && !isset($text)){
 	}
 	$blinker .= '&nbsp;&nbsp;';
 }
-
-}
-
-?>
