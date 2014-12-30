@@ -8,24 +8,6 @@
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/c/index.php?help=1</loc>
-  <priority>0.9</priority>
-</url>
-<url>
-  <loc>http://minrev.main.jp/c/index.php?help=2</loc>
-  <priority>0.9</priority>
-</url>
-<url>
-  <loc>http://minrev.main.jp/c/index.php?id=0&amp;sort=date&amp;results=20&amp;page=1&amp;help=1</loc>
-  <priority>0.8</priority>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://minrev.main.jp/c/index.php?id=0&amp;sort=date&amp;results=20&amp;page=1&amp;help=2</loc>
-  <priority>0.8</priority>
-  <changefreq>always</changefreq>
-</url>
-<url>
   <loc>http://minrev.main.jp/c/index.php?id=1&amp;sort=date&amp;results=20</loc>
   <priority>0.8</priority>
   <changefreq>always</changefreq>
@@ -951,117 +933,107 @@
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1&amp;sort=-updatetime&amp;results=20&amp;price=0&amp;start=1&amp;help=1</loc>
+  <loc>http://minrev.main.jp/index.php?id=13457&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1&amp;sort=-updatetime&amp;results=20&amp;price=0&amp;start=1&amp;help=2</loc>
+  <loc>http://minrev.main.jp/index.php?id=2498&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=13457&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2500&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2498&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2501&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2500&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2502&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2501&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2504&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2502&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2505&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2504&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2506&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2505&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2507&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2506&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2508&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2507&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2503&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2508&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2509&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2503&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2510&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2509&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2511&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2510&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2497&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2511&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2512&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2497&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2513&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2512&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2514&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2513&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2516&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2514&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2517&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2516&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
-  <priority>0.7</priority>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://minrev.main.jp/index.php?id=2517&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
-  <priority>0.7</priority>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://minrev.main.jp/index.php?id=10002&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=10002&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
@@ -4641,372 +4613,372 @@
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2494&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2494&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2495&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2495&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2496&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2496&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4744&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4744&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1167&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1167&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=939&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=939&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=998&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=998&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1032&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1032&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1034&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1034&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1234&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1234&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1184&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1184&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1201&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1201&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=15015&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=15015&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4742&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4742&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4743&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4743&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1053&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1053&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1263&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1263&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1261&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1261&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1262&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1262&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2499&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2499&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4745&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4745&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1273&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1273&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1071&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1071&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1313&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1313&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1445&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1445&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1448&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1448&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1948&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1948&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4749&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4749&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1874&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1874&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2053&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2053&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2004&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2004&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2022&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2022&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=14582&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=14582&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2052&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2052&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2117&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2117&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1752&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1752&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1791&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1791&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1772&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1772&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=13709&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=13709&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1809&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1809&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1841&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1841&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1831&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1831&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1803&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1803&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4752&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4752&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1849&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1849&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=14252&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=14252&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=14242&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=14242&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=14241&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=14241&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2519&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2519&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=88&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=88&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=150&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=150&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=113&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=113&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=24&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=24&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=14243&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=14243&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4692&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4692&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=635&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=635&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4757&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4757&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=660&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=660&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=682&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=682&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2443&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2443&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=647&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=647&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4759&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4759&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=2260&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=2260&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=4740&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=4740&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=5300&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=5300&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=587&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=587&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1987&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1987&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=1919&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=1919&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=5301&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=5301&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=719&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=719&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=3664&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=3664&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=14704&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=14704&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=3633&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=3633&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://minrev.main.jp/index.php?id=14709&amp;sort=-updatetime&amp;results=20&amp;price=0</loc>
+  <loc>http://minrev.main.jp/index.php?id=14709&amp;sort=-updatetime&amp;results=20</loc>
   <priority>0.6</priority>
   <changefreq>always</changefreq>
 </url>
