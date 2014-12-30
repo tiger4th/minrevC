@@ -388,7 +388,10 @@ if ($id == 0) {
     <!-- AddThis Button END -->
     </span>
 
+    <br>
     <a href="#top" class="anchor"><img src="./image/top.png" width="70px"/></a>
+
+    <a href="http://apidoc.coneco.net/" target="_blank" title="webservices by coneco.net Web Services"><img src="http://img.coneco.net/images/webservices_by_coneco2.gif" width="180" height="16" alt="webservices by coneco.net Web Services" style="margin:15px 15px 0px 15px"></a>
 
     <br><br>
     <span>Copyright &copy; <?php echo date("Y"); ?> <a href="http://tiger4th.com/">tiger4th.com</a> All Rights Reserved.</span>
