@@ -351,8 +351,8 @@ if ($id == 0) {
                             ?></p>
                             <a href="<?php echo $item["Item"]["Url"]; ?>" target="_blank"><h2 class="name"><?php echo $item["Item"]["Name"]; ?></h2></a>
                             <div class="buttons">
-                                <a href="http://www.amazon.co.jp/gp/search?ie=UTF8&camp=247&creative=1211&index=aps&keywords=<?php echo $item["Item"]["Name"]; ?>&linkCode=ur2&tag=tiger4th-22" class="zocial amazon small" target="_blank">Amazonで探す</a>
-                                <a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3185576&pid=883213932&vc_url=<?php echo rawurlencode('http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p='.$item["Item"]["Name"]); ?>" class="zocial yahoo small" target="_blank">Yahoo!で探す</a>
+                                <a href="http://www.amazon.co.jp/gp/search?ie=UTF8&camp=247&creative=1211&index=aps&keywords=<?php echo $item["Item"]["ShortName"]; ?>&linkCode=ur2&tag=tiger4th-22" class="zocial amazon small" target="_blank">Amazonで探す</a>
+                                <a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3185576&pid=883213932&vc_url=<?php echo rawurlencode('http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p='.$item["Item"]["ShortName"]); ?>" class="zocial yahoo small" target="_blank">Yahoo!で探す</a>
                             </div>
                         </div>
                     </div>

@@ -49,6 +49,7 @@ $url = "http://api.coneco.net/cws/v1/SearchReviews_json?apikey=".$app_id."&categ
 
 curl_setopt($ch, CURLOPT_URL, $url);
 $response = curl_exec($ch);
+curl_close($ch);
 $res = json_decode($response, true);
 
 /*
@@ -67,7 +68,16 @@ if($res["Header"]["Page"]["Size"] <= 0){
     }
 }
 
-curl_close($ch);
+foreach($res["ItemInfo"] as &$item){
+    $name = $item["Item"]["Name"];
+    $name = explode('[', $name);
+    $name = explode('［', $name[0]);
+    $name = explode('(', $name[0]);
+    $name = explode('（', $name[0]);
+    $name = $name[0];
+    $item["Item"]["ShortName"] = $name;
+}
+unset($item);
 
 //ページ移動
 if($res["Header"]["Page"]["Count"] > $results){
