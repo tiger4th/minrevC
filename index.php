@@ -116,47 +116,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-sm-4">
     <div class="widget-container boxed category">
         <?php if ($id == 0) { ?>
-        <h1 class="widget-title">商品カテゴリ</h1>
+        <h1 class="widget-title" onClick="toggleList()">商品カテゴリ<i class="fa fa-bars fa-lg toggle-list"></i></h1>
         <div class="inner list-group">
-                <a class="list-group-item" href="index.php?id=1&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-laptop fa-fw"></i>パソコン・周辺機器</a>
-                <a class="list-group-item" href="index.php?id=2&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-hdd-o fa-fw"></i>PCパーツと自作パソコン</a>
-                <a class="list-group-item" href="index.php?id=3&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-desktop fa-fw"></i>AV機器</a>
-                <a class="list-group-item" href="index.php?id=4&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-plug fa-fw"></i>生活家電</a>
-                <a class="list-group-item" href="index.php?id=5&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-floppy-o fa-fw"></i>PCソフト</a>
-                <a class="list-group-item" href="index.php?id=6&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-film fa-fw"></i>ブルーレイ・DVDソフト</a>
-                <a class="list-group-item" href="index.php?id=7&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-gamepad fa-fw"></i>ゲームソフト</a>
-                <a class="list-group-item" href="index.php?id=9&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-car fa-fw"></i>カー用品</a>
-                <a class="list-group-item" href="index.php?id=10&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-tint fa-fw"></i>美容・コスメ</a>
-                <a class="list-group-item" href="index.php?id=15&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-medkit fa-fw"></i>ヘルスケア</a>
-                <a class="list-group-item" href="index.php?id=16&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-camera fa-fw"></i>デジカメ・カメラ</a>
-                <a class="list-group-item" href="index.php?id=17&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-clock-o fa-fw"></i>時計・ ブランド</a>
-                <a class="list-group-item" href="index.php?id=18&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-headphones fa-fw"></i>オーディオ機器</a>
-                <a class="list-group-item" href="index.php?id=23&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-puzzle-piece fa-fw"></i>ホビー</a>
-                <a class="list-group-item" href="index.php?id=24&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-bell-o fa-fw"></i>楽器</a>
-                <a class="list-group-item" href="index.php?id=26&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-child fa-fw"></i>ベビー・キッズ用品</a>
-                <a class="list-group-item" href="index.php?id=28&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-spoon fa-fw"></i>キッチン用品</a>
-                <a class="list-group-item" href="index.php?id=29&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-paw fa-fw"></i>ペット用品</a>
-                <a class="list-group-item" href="index.php?id=30&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-tablet fa-fw"></i>スマホ・タブレット</a>
-                <a class="list-group-item" href="index.php?id=32&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-futbol-o fa-fw"></i>スポーツ用品</a>
-                <a class="list-group-item" href="index.php?id=33&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-fire fa-fw"></i>アウトドア</a>
-                <a class="list-group-item" href="index.php?id=50&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-glass fa-fw"></i>酒・ドリンク</a>
-                <a class="list-group-item" href="index.php?id=51&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-cutlery fa-fw"></i>食品</a>
-                <a class="list-group-item" href="index.php?id=60&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-scissors fa-fw"></i>日用品</a>
-                <a class="list-group-item" href="index.php?id=99&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-briefcase fa-fw"></i>全般</a>
+            <a class="list-group-item" href="index.php?id=1&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-laptop fa-fw"></i>パソコン・周辺機器</a>
+            <a class="list-group-item" href="index.php?id=2&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-hdd-o fa-fw"></i>PCパーツと自作パソコン</a>
+            <a class="list-group-item" href="index.php?id=3&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-desktop fa-fw"></i>AV機器</a>
+            <a class="list-group-item" href="index.php?id=4&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-plug fa-fw"></i>生活家電</a>
+            <a class="list-group-item" href="index.php?id=5&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-floppy-o fa-fw"></i>PCソフト</a>
+            <a class="list-group-item" href="index.php?id=6&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-film fa-fw"></i>ブルーレイ・DVDソフト</a>
+            <a class="list-group-item" href="index.php?id=7&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-gamepad fa-fw"></i>ゲームソフト</a>
+            <a class="list-group-item" href="index.php?id=9&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-car fa-fw"></i>カー用品</a>
+            <a class="list-group-item" href="index.php?id=10&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-tint fa-fw"></i>美容・コスメ</a>
+            <a class="list-group-item" href="index.php?id=15&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-medkit fa-fw"></i>ヘルスケア</a>
+            <a class="list-group-item" href="index.php?id=16&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-camera fa-fw"></i>デジカメ・カメラ</a>
+            <a class="list-group-item" href="index.php?id=17&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-clock-o fa-fw"></i>時計・ ブランド</a>
+            <a class="list-group-item" href="index.php?id=18&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-headphones fa-fw"></i>オーディオ機器</a>
+            <a class="list-group-item" href="index.php?id=23&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-puzzle-piece fa-fw"></i>ホビー</a>
+            <a class="list-group-item" href="index.php?id=24&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-bell-o fa-fw"></i>楽器</a>
+            <a class="list-group-item" href="index.php?id=26&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-child fa-fw"></i>ベビー・キッズ用品</a>
+            <a class="list-group-item" href="index.php?id=28&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-spoon fa-fw"></i>キッチン用品</a>
+            <a class="list-group-item" href="index.php?id=29&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-paw fa-fw"></i>ペット用品</a>
+            <a class="list-group-item" href="index.php?id=30&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-tablet fa-fw"></i>スマホ・タブレット</a>
+            <a class="list-group-item" href="index.php?id=32&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-futbol-o fa-fw"></i>スポーツ用品</a>
+            <a class="list-group-item" href="index.php?id=33&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-fire fa-fw"></i>アウトドア</a>
+            <a class="list-group-item" href="index.php?id=50&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-glass fa-fw"></i>酒・ドリンク</a>
+            <a class="list-group-item" href="index.php?id=51&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-cutlery fa-fw"></i>食品</a>
+            <a class="list-group-item" href="index.php?id=60&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-scissors fa-fw"></i>日用品</a>
+            <a class="list-group-item" href="index.php?id=99&sort=<?php echo $sort; ?>&results=<?php echo $results; ?>"><i class="fa fa-briefcase fa-fw"></i>全般</a>
         </div>
         <?php } else {
-            echo '<h1 class="widget-title">'.$resC["Current"]["Name"].'</h1>';
-
+            echo '<h1 class="widget-title" onClick="toggleList()">'.$resC["Current"]["Name"].'<i class="fa fa-bars fa-lg toggle-list"></i></h1>';
+            echo '<div class="inner list-group">';
             foreach($resC["Category"] as $item){ 
                 if(isset($item["Name"])){
                     echo '<a class="list-group-item" href="index.php?id='.$item["Id"].'&sort='.$sort.'&results='.$results.'">'.$item["Name"].'</a>';
                 }
             }
-
             if(isset($_GET['id']) && $_GET['id'] > 0){
                 echo '<a class="list-group-item" href="index.php?id='.$resC["Parent"]["Id"].'&sort='.$sort.'&results='.$results.'"><i class="fa fa-angle-up"></i>上のカテゴリに戻る</a>';
                 echo '<a class="list-group-item" href="index.php?id=0&sort='.$sort.'&results='.$results.'"><i class="fa fa-angle-double-up"></i>トップに戻る</a>';
             }
+            echo '</div>';
         } ?>
     </div>
 
@@ -197,7 +197,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- row -->
 <div class="row">
 <div class="col-sm-12">
-    <div class="widget-container widget_search styled boxed line-left bread">
+    <div class="widget-container widget-search styled boxed line-left bread">
         <div class="inner">
 <?php
 if ($id == 0) {
