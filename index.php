@@ -351,8 +351,8 @@ if ($id == 0) {
                             ?></p>
                             <a href="<?php echo $item["Item"]["Url"]; ?>" target="_blank"><h2 class="name"><?php echo $item["Item"]["Name"]; ?></h2></a>
                             <div class="buttons">
-                                <a href="http://www.amazon.co.jp/gp/search?ie=UTF8&camp=247&creative=1211&index=aps&keywords=<?php echo $item["Item"]["ShortName"]; ?>&linkCode=ur2&tag=tiger4th-22" class="zocial amazon small" target="_blank">Amazonで探す</a>
-                                <a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3185576&pid=883213932&vc_url=<?php echo rawurlencode('http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p='.$item["Item"]["ShortName"]); ?>" class="zocial yahoo small" target="_blank">Yahoo!で探す</a>
+                                <a href="http://www.amazon.co.jp/gp/search?ie=UTF8&camp=247&creative=1211&index=aps&keywords=<?php echo $item["Item"]["ShortName"]; ?>&linkCode=ur2&tag=tiger4th-22" class="zocial amazon" target="_blank">Amazonで探す</a>
+                                <a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3185576&pid=883213932&vc_url=<?php echo rawurlencode('http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p='.$item["Item"]["ShortName"]); ?>" class="zocial yahoo" target="_blank">Yahoo!で探す</a>
                             </div>
                         </div>
                     </div>
@@ -392,6 +392,8 @@ if ($id == 0) {
     <a href="#top" class="anchor"><img src="./image/top.png" width="70px"/></a>
 
     <a href="http://apidoc.coneco.net/" target="_blank" title="webservices by coneco.net Web Services"><img src="http://img.coneco.net/images/webservices_by_coneco2.gif" width="180" height="16" alt="webservices by coneco.net Web Services" style="margin:15px 15px 0px 15px"></a>
+
+    <a href="http://www.amazon.co.jp/?tag=tiger4th-22" class="zocial amazon associate" target="_blank">Amazon.co.jpアソシエイト</a>
 
     <img Src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3185576&pid=883213932" height="1" width="1" Border="0">
 
