@@ -219,73 +219,6 @@ if ($id == 0) {
 </div>
 <!--/ row -->
 
-<div class="row">
-    <?php if (isset($res["Header"]["Page"]["Size"]) && $res["Header"]["Page"]["Size"] > 0) { ?>
-    <div class="col-sm-4">
-        <div class="user-menu">
-            <ul class="dropdown clearfix boxed ul-number">
-                <li class="first last"><span class="a-number"><span><?php echo number_format($res["Header"]["Page"]["Count"]); ?>件中<br><?php echo number_format($page * $results - $results + 1); ?>～<?php echo number_format(($page - 1) * $results + $res["Header"]["Page"]["Size"]); ?>件目</span></span></li>
-            </ul>
-        </div>
-    </div>
-    <?php } ?>
-
-    <div class="col-sm-4">
-        <div class="user-menu">
-            <ul class="dropdown clearfix boxed">
-                <li class="first parent"><a href="#" hidefocus="true" style="outline: none;"><i class="icon-menu icon-menu4"></i><span>表示順</span></a>
-                    <ul>
-                        <li class="first"><a href="index.php?id=<?php echo $id; ?>&sort=date&results=<?php echo $results; ?>" hidefocus="true" style="outline: none;">新着</a></li>
-                        <li class=""><a href="index.php?id=<?php echo $id; ?>&sort=rating&results=<?php echo $results; ?>" hidefocus="true" style="outline: none;">高評価優先</a></li>
-                        <li class="last"><a href="index.php?id=<?php echo $id; ?>&sort=-rating&results=<?php echo $results; ?>" hidefocus="true" style="outline: none;">低評価優先</a></li>
-                    </ul>
-                </li>
-                <li><div class="ribbon">
-                    <span>
-                        <strong>
-                            <?php
-                                if ($sort == "date") {
-                                    echo "<br>新着順";
-                                } elseif ($sort == "rating") {
-                                    echo "高評価優先";
-                                } elseif ($sort == "-rating") {
-                                    echo "低評価優先";
-                                }
-                            ?>
-                        </strong>
-                    </span>
-                </div></li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="user-menu">
-            <ul class="dropdown clearfix boxed">
-                <li class="first parent"><a href="#" hidefocus="true" style="outline: none;"><i class="icon-menu icon-menu6"></i><span>表示数</span></a>
-                    <ul>
-                        <li class="first"><a href="index.php?id=<?php echo $id; ?>&sort=<?php echo $sort; ?>&results=10" hidefocus="true" style="outline: none;">10件</a></li>
-                        <li class="last"><a href="index.php?id=<?php echo $id; ?>&sort=<?php echo $sort; ?>&results=20" hidefocus="true" style="outline: none;">20件</a></li>
-                    </ul>
-                </li>
-                <li><div class="ribbon">
-                    <span>
-                        <strong>
-                            <br>
-                            <?php
-                                if ($results == 10) {
-                                    echo "10件";
-                                } elseif ($results == 20) {
-                                    echo "20件";
-                                }
-                            ?>
-                        </strong>
-                    </span>
-                </div></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
 <?php if($notice != ""){ ?>
     <div class="comment-list styled clearfix">
         <ol>
@@ -363,12 +296,6 @@ if ($id == 0) {
     </div>
 <?php } ?>
 <?php } ?>
-
-<div class="undernavi">
-    <div class="new"><?php echo $newest."&nbsp;&nbsp;".$newer; ?></div>
-    <div class="old"><?php echo $older."&nbsp;&nbsp;".$oldest; ?></div>
-</div>
-<div class="clearfix"></div>
 
 <div class="footer-right">
     <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://minrev.main.jp/c/" data-text="みんなの新着レビューC">Tweet</a>

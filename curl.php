@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=UTF-8");
 
 //カテゴリ取得
 $id = '0';
@@ -6,14 +7,17 @@ $id = '0';
 if(isset($_GET['id'])){
     $id = $_GET['id'];
 }
-$urlC = "http://api.coneco.net/cws/v1/SearchCategories_json?apikey=".$app_id."&categoryId=".$id;
 
-$ch = curl_init();
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
+$responseC = @file_get_contents('./json/category/'.$id.'.json');
+if(!$responseC) {
+    $parent_id = substr($id, 0, -2);
+    $responseC = @file_get_contents('./json/category/'.$parent_id.'.json');
+    if(!$responseC) {
+        $id = 0;
+        $responseC = @file_get_contents('./json/category/0.json');
+    }
+}
 
-curl_setopt($ch, CURLOPT_URL, $urlC);
-$responseC = curl_exec($ch);
 $resC = json_decode($responseC, true);
 
 if(!isset($resC["Header"])){
@@ -45,50 +49,41 @@ if(isset($_GET['page']) && ctype_digit($_GET['page'])){
 }
 
 //レビュー取得
-$url = "http://api.coneco.net/cws/v1/SearchReviews_json?apikey=".$app_id."&categoryId=".$id."&count=".$results."&sort=".$sort."&page=".$page;
+$response = @file_get_contents('./json/review/'.$id.'_'.$results.'_'.$sort.'_'.$page.'.json');
 
-curl_setopt($ch, CURLOPT_URL, $url);
-$response = curl_exec($ch);
-curl_close($ch);
-$res = json_decode($response, true);
-
-/*
-if(!isset($res["ResultSet"])){
-    $res["ResultSet"][0] = "";
-    $res["ResultSet"]["totalResultsAvailable"] = 0;
-    $res["ResultSet"]["totalResultsReturned"] = 0;
-}
-*/
-
-if($res["Header"]["Page"]["Size"] <= 0){
-    if($page == 1){
-        $notice = "このカテゴリにはまだレビューがありません";
-    }else{
-        $notice = "レビュー表示位置が不正です";
+if($response) {
+    $res = json_decode($response, true);
+} else {
+    $glob = glob('./json/review/'.$id.'_*');
+    if(!empty($glob)) {
+        $response = @file_get_contents($glob[0]);
+        $res = json_decode($response, true);
+    } else {
+        $res = array();
     }
 }
 
-foreach($res["ItemInfo"] as &$item){
-    $name = $item["Item"]["Name"];
-    $name = explode('[', $name);
-    $name = explode('［', $name[0]);
-    $name = explode('(', $name[0]);
-    $name = explode('（', $name[0]);
-    $name = $name[0];
-    $item["Item"]["ShortName"] = $name;
-}
-unset($item);
-
-//ページ移動
-if($res["Header"]["Page"]["Count"] > $results){
-    if($page > 1){
-        $newest = '<a href="index.php?id='.$id.'&sort='.$sort.'&results='.$results.'" class="btn btn-left btn-red"><span>&#171; 最新</span></a>&nbsp;';
-        $newer = '<a href="index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.($page - 1).'" class="btn btn-left"><span>&#139; 前へ</span></a>';
+if(isset($res["Header"])){
+    if($res["Header"]["Page"]["Size"] <= 0){
+        if($page == 1){
+            $notice = "このカテゴリにはまだレビューがありません";
+        }else{
+            $notice = "レビュー表示位置が不正です";
+        }
     }
-    if($res["Header"]["Page"]["Count"] > ($page + $results - 1)){
-        $older = '<a href="index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.($page + 1).'" class="btn btn-right"><span>次へ &#155;</span></a>&nbsp;';
-        $oldest = '<a href="index.php?id='.$id.'&sort='.$sort.'&results='.$results.'&page='.$res["Header"]["Page"]["PageCount"].'" class="btn btn-right"><span>最古 &#187;</span></a>';
+    
+    foreach($res["ItemInfo"] as &$item){
+        $name = $item["Item"]["Name"];
+        $name = explode('[', $name);
+        $name = explode('［', $name[0]);
+        $name = explode('(', $name[0]);
+        $name = explode('（', $name[0]);
+        $name = $name[0];
+        $item["Item"]["ShortName"] = $name;
     }
+    unset($item);
+} else {
+    $notice = "このカテゴリにはまだレビューがありません";
 }
 
 //デバイス
