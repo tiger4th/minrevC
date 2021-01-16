@@ -69,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-sm-4">
     <!-- Website Menu -->
     <div class="logo">
-        <a href="/">
+        <a href="/c/">
             <img src="./image/logo.png" alt="みんなの新着レビューC"/>
         </a>
     </div>
