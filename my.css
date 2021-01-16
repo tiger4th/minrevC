@@ -139,6 +139,10 @@ body {
     margin: 16px 0 0;
 }
 
+.zocial:before {
+    margin-top: 1px;
+}
+
 .comment-text .time{
     float: right;
 }
@@ -253,7 +257,7 @@ body {
     
     }
     .comment-list.styled .comment-text{
-        padding: 25px 27px 26px 209px;
+        padding: 26px;
     }
     .comment-list.styled .comment-arrow {
         width: 180px;

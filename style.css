@@ -61,7 +61,7 @@ CSS STRUCTURE:
 /* Fonts */
 /*-----------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
 
 /*-----------------------------------*/
 /* Global Reset */
@@ -116,7 +116,6 @@ body {
 }
 a:hover,
 a:focus {
-	color: #8D8569;
 	text-decoration: none;
 }
 a:active{background-color: transparent;}
@@ -1365,8 +1364,10 @@ p{
 	color: #7b6d5e;
     text-transform: none;
 }
-.comment-entry{line-height: 19px;}
-
+.comment-entry{
+    line-height: 19px;
+    word-break: break-word;
+}
 /* Comments responsive feature */
 
 @media (max-width:479px){
@@ -2395,7 +2396,7 @@ input[type="password"]:focus{
 @media (max-width:479px){
     .comment-list.styled .comment-arrow {width: 115px;}
 	.comment-list.styled .comment-avatar {left: 13px;}
-	.comment-list.styled .comment-text {padding: 25px 16px 26px 134px;}
+	.comment-list.styled .comment-text {padding: 26px;}
 }
 
 /*-----------------------------------*/
